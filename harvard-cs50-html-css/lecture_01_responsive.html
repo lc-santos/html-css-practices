@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (min-width: 600px) {
+            body {
+                background-color: lightgray;
+            }
+
+            h1 {
+                color: white
+            }
+        }
+
+        @media (max-width: 599px) {
+            body {
+                background-color: white;
+            }
+
+            h1 {
+                color: blue
+            }
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #container > div {
+            background-color: springgreen;
+            font-size: 20px;
+            margin: 20px;
+            padding: 20px;
+            width: 200px;
+        }
+
+        #grid {
+            background-color: green;
+            display: grid;
+            padding: 20px;
+            column-gap: 20px;
+            row-gap: 10px;
+            grid-template-columns: 200px 200px auto;
+        }
+
+        .grid-item {
+            background-color: white;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to my web page!</h1>
+
+    <div id="container">
+        <div>1. Example</div>
+        <div>2. Example</div>
+        <div>3. Example</div>
+        <div>4. Example</div>
+        <div>5. Example</div>
+        <div>6. Example</div>
+        <div>7. Example</div>
+        <div>8. Example</div>
+        <div>9. Example</div>
+        <div>10. Example</div>
+        <div>11. Example</div>
+        <div>12. Example</div>
+    </div>
+
+    <div id="grid">
+        <div class="grid-item">1. Grid Example</div>
+        <div class="grid-item">2. Grid Example</div>
+        <div class="grid-item">3. Grid Example</div>
+        <div class="grid-item">4. Grid Example</div>
+        <div class="grid-item">5. Grid Example</div>
+        <div class="grid-item">6. Grid Example</div>
+        <div class="grid-item">7. Grid Example</div>
+        <div class="grid-item">8. Grid Example</div>
+        <div class="grid-item">9. Grid Example</div>
+        <div class="grid-item">10. Grid Example</div>
+        <div class="grid-item">11. Grid Example</div>
+        <div class="grid-item">12. Grid Example</div>
+        
+    </div>
+</body>
+
+</html>

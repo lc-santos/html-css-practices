@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="user">
+        <input type="text" id="name" placeholder="Name"> 
+        <input type="password" id="pass" placeholder="Password"> 
+    </div>
     <!--Forms: Reforcing radio values and datalist tag-->
     <div>
         <input name="color" type="radio" value="red"> Red
@@ -13,6 +18,19 @@
         <input name="color" type="radio" value="blue"> Blue
         <input name="color" type="radio" value="other"> Other
     </div>
-    
+    <div class="dtlist">
+        <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+            <option value="Brazil">
+            <option value="Italy">
+            <option value="Japan">
+            <option value="Germany">
+            <option value="Angola">
+            <option value="Australia">
+            <option value="Austria">
+            <option value="Chile">
+        </datalist>  
+    <button type="submit">Enviar</button>
+    </div>
 </body>
 </html>
