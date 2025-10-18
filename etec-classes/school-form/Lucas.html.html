@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <style>
+
+
+
+        body {
+            background-color: aliceblue;
+        }
+
+        form {
+            border-top-right-radius: 50px;
+            border-top-left-radius: 10px ;
+            margin: 0 auto;
+            width: 50%;
+            margin-top: 10%;
+            background-color: rgb(142, 199, 218);
+            border: 1px solid white;
+            box-shadow: 10px 10px rgb(140, 241, 241);
+        }
+
+        fieldset {
+            border: 0px;
+            text-align: left;
+            padding: 20px;
+            margin-top: 10px;
+            
+        }
+
+        legend {
+            text-align: center;
+            border: 1px solid  white;
+            background-color: white;
+            padding: 8px;
+            border-radius: 10px ;
+        }
+
+        div {
+            padding-right: 50px;
+            color: white;
+            text-decoration-color: black;
+            padding-bottom: 12px;
+        }
+
+        label {
+            text-align: left;
+            padding-right: 15px;
+        }
+
+        input {
+            background-color: white;
+            border-radius: 10px;
+            border: 1px solid white;
+            box-shadow: 2px 2px rgb(51, 100, 115);
+            border-style: hidden;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Inscrição</legend>
+                <div>
+                    <label for="nome_aluno">Nome: </label>
+                    <input type="text" name="nome_aluno" id="nome_aluno" maxlength="30" required>
+                </div>
+
+                <div>
+                    <label for="idade">Idade: </label>
+                    <input type="number" name="idade" id="idade" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="data_nasc">Data de nascimento: </label>
+                    <input type="date" name="data_nasc" id="nome_aluno" required>
+                </div>
+
+
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="text" name="email" id="email" required>
+
+                </div>
+
+                <div>
+                    <label for="peso">Peso: </label>
+                    <input type="number" name="peso" id="peso" placeholder="Kg" min="20" max="250" step="0.1" required>
+                </div>
+
+                <div>
+                    <label for="altura">Altura: </label>
+                    <input type="number" name="altura" id="altura" placeholder="M" min="1" max="3" step="0.1" required>
+                </div>
+
+                <div>
+                    <label for="sexo">Sexo</label>
+                    <select required>
+                        <option for="">Feminino</option>
+                        <option for="">Masculino</option>
+                    </select>
+                </div>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+
+            </fieldset>
+</body>
+
+</html>

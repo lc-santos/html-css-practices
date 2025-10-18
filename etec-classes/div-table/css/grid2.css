@@ -1,0 +1,125 @@
+
+#headers {
+    display: grid;
+    gap: 0px 0px
+
+}
+
+#mains {
+    gap: 0px 0px;
+    display: grid;
+}
+
+.primeiralinha {
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.segundalinha {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.terceiralinha{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25px 35px 35px 10fr;
+    gap: 0px 0px;
+    grid-template-rows: 75px 75px;
+
+}
+
+.vazio {
+    background-color: lightgray;
+    color: lightgray;
+    border: 1px solid black;
+    writing-mode: sideways-lr;
+    margin-bottom: 10px;
+}
+
+.tempo {
+    background-color: lightgray;
+    padding: 5px;
+    writing-mode: sideways-lr;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.horario {
+    background-color: lightgray;
+    padding: 5px;
+    writing-mode: sideways-lr;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.diadasemana {
+    align-items: center;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 55px;
+}
+
+#dias {
+    gap: 0px 0px;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    
+}
+
+.segunda {
+    border: 1px solid black;
+}
+
+.terca {
+
+    border: 1px solid black;
+}
+
+.cp {
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.grupos {
+    background-color: lightgray;
+    font-size: 12px;
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns:   2fr 3fr 2fr 3fr 2fr 3fr 2fr 3fr 2fr 3fr;
+    grid-template-rows: 20px;
+
+
+}
+
+.grupoA {
+
+    border: 1px solid black;
+}
+.grupoB {
+    border: 1px solid black;
+}
+
+#quintalinha {
+    border: 1px solid black;
+    display: grid;
+    background-color: lightgray;
+    grid-template-columns: 1fr 1.7fr 1.4fr 2.7fr 1fr 2fr 2fr 2fr 3fr 2fr 4fr 2fr 2fr 2fr 2fr 2fr 3fr 2fr ;
+    grid-template-rows: 2fr;
+}
+
+.pa {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.professor {
+    border:1px solid black
+}
+
+.teste {
+    display: flex;
+    justify-content: flex-start;
+}

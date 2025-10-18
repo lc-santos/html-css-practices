@@ -1,0 +1,22 @@
+* { 
+    margin: 0 auto;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.pseudo_class {
+    padding: 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

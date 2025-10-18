@@ -1,0 +1,1 @@
+Olá! sei que tem umas gambiarras de posicionamento, preciso estudar outras tags, mas improvisei com oque conheço :p, obrigado!

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        #caixa {
+            width: 300px;
+            height: 300px;
+            padding: 8px;
+            margin: 0 auto;
+            margin-top: 40px;
+            background: #009670;
+            box-shadow: -20px 20px 2px 10px rgba(0,0,0,0.5);
+            /*  Primeiro valor: Lateral
+                Segundo valor: horizontal
+                Terceiro valor: Blur
+                Quarto valor: Disperção(Spread)*/
+        }
+
+        #caixa h1,p {
+            color: white;
+            text-shadow: 20px 20px 2px rgba(0,0,0,0.5);
+        }   
+    </style>
+</head>
+<body>
+    <div id="caixa">
+        <p>Texto</p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+</body>
+</html>

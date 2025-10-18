@@ -1,0 +1,224 @@
+<!--Lucas Silva dos Santos e Fabricio Souza Santos-->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela em grupo</title>
+
+    <style>tr,td, th {
+        border:1px solid black;
+        text-align: center;
+        border-collapse: collapse;
+        
+    }
+        thead{
+            background-color: lightgray;
+        }
+    
+        .azul {
+            border: 0px;
+            background-color: rgb(101, 158, 211);
+        }
+
+        .cinza {
+            background-color: lightgray;
+        }
+
+        .cinza2 {
+            background-color: lightgray;
+            padding: 10px;
+
+        }
+        .sem_borda {
+            border: 0px;
+            background-color: white;
+        }
+        
+        .azul_claro {
+            background-color: lightsteelblue;
+        }
+        
+        .verde{
+            background-color: lightgreen;
+        }
+        
+        .amarelo {
+            background-color: salmon;
+        }
+
+        .dourado {
+            background-color: rgb(255, 228, 78);
+        }
+
+        .azul_escuro {
+            background-color: blue;
+        }
+
+        .laranja {
+            background-color: rgb(246, 125, 26);
+        }
+
+        .amarelo_claro{
+            background-color: yellow;
+        }
+
+        .roxo{
+            background-color: purple;
+            color: white;
+        }
+
+        .balbino{
+            background-color: rgb(87, 118, 147);
+        }
+    
+        .azul2{
+            text-decoration: underline;
+            background-color: rgb(101, 158, 211);
+        }
+
+        .sublinhado {
+            text-decoration: underline;
+        }
+
+        .rotate {
+            padding: 5px;
+            writing-mode: sideways-lr;
+            background-color: lightgray;
+        }
+
+        .rotate2 {
+            padding-left: 20px;
+            padding-right: 20px;
+            writing-mode: sideways-lr;
+            background-color: lightgray;
+        }
+
+        .tfoot {
+            
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+
+    <thead>
+        <tr>
+        <th class="sublinhado" colspan="23">DESENVOLVIMENTO DE SISTEMAS</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td colspan="23"><strong>1° Semestre 2025</strong></td>
+        </tr>
+
+        <tr>
+            <td rowspan="3" class="cinza"></td>
+            <td rowspan="3" class="rotate">Tempo</td>
+            <td  colspan="2" rowspan="3" class="rotate2">Horário</td>
+            <td class="azul2"  colspan="20"><strong>DIA DA SEMANA</strong></td>
+        </tr>
+        <tr class="semana">
+            <td colspan="4">Segunda-feira</td>
+            <td colspan="4">Terça-feira</td>
+            <td colspan="4">Quarta-feira</td>
+            <td colspan="4">Quinta-feira</td>
+            <td colspan="4">Sexta-feira</td>
+        </tr>
+        
+        <tr class="azul">
+            <td colspan="4">Componente / Professor</td>
+            <td colspan="4">Componente / Professor</td>
+            <td colspan="4">Componente / Professor</td>
+            <td colspan="4">Componente / Professor</td>
+            <td colspan="4">Componente / Professor</td>
+        </tr>
+
+        <tr class="cinza">
+            <td class="sem_borda"></td>
+            <td class="sem_borda"></td>
+            <td class="sem_borda" colspan="2"></td>
+            <td colspan="2">Grupo A</td>
+            <td colspan="2">Grupo B</td>
+            <td colspan="2">Grupo A</td>
+            <td colspan="2">Grupo B</td>
+            <td colspan="2">Grupo A</td>
+            <td colspan="2">Grupo B</td>
+            <td colspan="2">Grupo A</td>
+            <td colspan="2">Grupo B</td>
+            <td colspan="2">Grupo A</td>
+            <td colspan="2">Grupo B</td>
+        </tr>
+
+        <tr>
+            <td class="cinza2" rowspan="2">1</td>
+            <td class="cinza">1°</td>
+            <td class="cinza" colspan="2">18:45</td>
+            <td>PA</td>
+            <td class="azul_claro">Alex</td>
+            <td>PA</td>
+            <td class="verde">Fernando</td>
+            <td>FI</td>
+            <td class="dourado">Ericles</td>
+            <td>FI</td>
+            <td class="dourado">Wilton</td>
+            <td>PW I</td>
+            <td class="amarelo">Willians</td>
+            <td>PA</td>
+            <td class="verde">Fernando</td>
+            <td>DD</td>
+            <td class="laranja">Francinete</td>
+            <td>PW I</td>
+            <td class="amarelo">Wilians</td>
+            <td>ECO</td>
+            <td class="balbino" colspan="2">Balbino</td>
+
+            
+        </tr>
+
+        <tr>
+            <td class="cinza">2°</td>
+            <td class="cinza" colspan="2">20:50</td>
+            <td>PA</td>
+            <td class="azul_claro">Alex</td>
+            <td>BD I</td>
+            <td class="amarelo">Willians</td>
+            <td>OSA</td>
+            <td class="azul_escuro">Ericles</td>
+            <td>OSA</td>
+            <td class="laranja">Francinete</td>
+            <td>BD I</td>
+            <td class="amarelo_claro">Aurivam</td>
+            <td>PW I</td>
+            <td class="amarelo">Willians</td>
+            <td>PW I</td>
+            <td class="amarelo">Wilians</td>
+            <td>DD</td>
+            <td class="laranja">Francinete</td>
+            <td>II</td>
+            <td class="roxo" colspan="2">Carol</td>
+
+        </tr>
+
+
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="12">
+                Lucas Silva dos Santos
+            </td>
+            <td colspan="12">
+                Fabricio Souza Santos
+            </td>
+        </tr>
+    
+        
+
+    </tfoot>
+</table>
+</body>
+</html>

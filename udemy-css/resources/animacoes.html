@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações</title>
+    <style>
+
+        @keyframes animacao-caixa {
+            from {
+                width: 300px;
+                height: 300px;;
+                border-radius: 0px;
+                background:red;
+                top: 0; 
+                left: 0;
+           }
+
+           to { 
+                width: 350px;
+                height: 350px;
+                border-radius: 50%;
+                background: green;
+                top: 300px;
+                left: 300px;
+           }
+        
+        }
+
+           @keyframes animacao-caixa2 {
+            from {
+                width: 300px;
+                height: 300px;
+                background:green;
+                top: 0; 
+                left: 0;;
+           }
+
+           to { 
+                width: 200px;
+                height: 200px;
+                background: red;
+                top: -300px;
+                left: -300px;
+           }
+        }
+
+           @keyframes animacao-caixa3 {
+            from {
+                width: 300px;
+                height: 300px;
+                background:yellow;
+           }
+
+           to { 
+                width: 200px;
+                height: 200px;
+                background: blue;
+           }
+        
+        }
+
+        #caixa {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            padding: 8px;
+            margin: 0 auto;
+            margin-top: 40px;
+            background: red;
+            animation-name: animacao-caixa;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+        }
+
+         #caixa2 {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            padding: 8px;
+            margin: 0 auto;
+            margin-top: 40px;
+            background: green;
+            animation-name: animacao-caixa2;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+            animation-delay: 1s;
+            animation-duration: alternate;
+        }
+
+         #caixa3 {
+            width: 300px;
+            height: 300px;
+            padding: 8px;
+            margin: 0 auto;
+            margin-top: 40px;
+            background: yellow;
+            animation: animacao-caixa3 5s 3s 2 alternate;
+            /*Animation em uma so linha: Nome da animação / duração / delay / 
+            quantidade de animação / direção */
+        }
+
+         #caixa4 {
+            width: 300px;
+            height: 300px;
+            padding: 8px;
+            margin: 0 auto;
+            margin-top: 40px;
+            background: blue;
+        }
+
+        #caixa, #caixa2, #caixa3, #caixa4 h1,p {
+            color: white;
+        }   
+    </style>
+</head>
+<body>
+    <div id="caixa">
+        <p>Texto</p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+
+    <div id="caixa2">
+        <p>Texto</p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+
+    <div id="caixa3">
+        <p>Texto</p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+
+    <div id="caixa4">
+        <p>Texto</p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+</body>
+</html>

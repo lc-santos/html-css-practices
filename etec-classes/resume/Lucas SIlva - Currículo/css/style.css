@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8%;
+}
+
+    
+header h1 {
+    margin-left: 25%;
+}
+
+    header img {
+        border: 2px solid lightslategray;
+        float: right;
+        margin: 0 auto;
+        position: relative;
+        margin-right: 320px;
+        margin-bottom: 50px;
+        border-radius: 90%;
+    
+    }
+
+header hr {
+    margin-left: 20%;
+    width: 500px;
+    height: 1px;
+    background-color: black;
+    align-items: center;
+
+}
+.redes {
+    
+    align-items: center;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    padding-bottom: 4px;
+    
+}
+
+.redes img {
+ margin-left: 15px;
+ margin-top: 15px;
+}
+
+hr {
+    border-color: lightblue;
+}
+
+.redes ol {
+    
+    border-radius: 2%;
+    background-color: lightblue;
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: underline;
+    padding: 20px;
+    padding-right: 50px; 
+}
+
+.redes ol img {
+    padding-right: 10px;
+}
+
+.resumo {
+    padding-top: 45px;
+    font-size: 17px;
+}
+
+.resumo h2 {
+    font-size: 22px;
+}
+
+.dados {
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    
+}
+
+.dados li {
+    padding: 0;
+    position: relative;
+}
+
+
+.qualificacoes{
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.qualificacoes h3 {
+    padding-top: 8px;
+}
+
+.qualificacoes dt  {
+    margin-top: 3px;
+    font-size: 15px;
+    margin-left:40px;
+    
+}
+
+.qualificacoes dl {
+    margin-left: 30px;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+
+.exp {
+    padding-top: 10px;
+    position: absolute;
+    font-size: 16px;
+    display:block;
+    margin-left: 35%;
+    margin-top: -30%;
+}
+
+.exp dt {
+    font-size: 15px;
+
+}
+
+footer {
+    padding: 0;
+    position: absolute;
+    
+}
+
+.box {
+    padding-left: 120px;
+    margin-right: 150px;
+}

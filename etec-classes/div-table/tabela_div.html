@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .flex {
+            display: inline-flex;
+
+            padding: 2%;
+        }
+        .border {
+            width: 50%;
+
+        }
+
+        .linha1 {
+            border: 1px solid black;
+            text-align: center;
+            background-color: lightgray;
+        }
+
+        .linha2 {
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        .linha3 {
+            border: 1px solid black;
+            display: block;
+            margin-right: 100%;
+            border: 1px solid black;
+            padding: 10px;
+            background-color: lightgray;
+            writing-mode: sideways-lr;
+
+        }
+
+        .tempo {
+
+            align-items: right;
+            border: 1px solid black;
+        }
+
+        .dia_semana {
+            height: 60px;
+            width: 100%;
+            text-align: center;
+
+
+        }
+
+        .container {
+            display: flex;
+            border: 1px solid black;
+            border-bottom: 0px;
+        }
+
+        .conteudo {
+            writing-mode: sideways-lr;
+            border: 1px solid black;
+        }
+
+        .segunda {
+            border-right: 1px solid black;
+            text-align: center;
+            width: 20%;
+
+
+        }
+
+        .terca {
+            text-align: center;
+            border-right: 1px solid black;
+            width: 20%;
+
+
+        }
+
+        .quarta {
+            border-right: 1px solid black;
+            text-align: center;
+            width: 20%;
+
+
+        }
+
+        .quinta {
+            border-right: 1px solid black;
+            text-align: center;
+            width: 20%;
+
+        }
+
+        .sexta {
+            border-right: 1px solid black;
+            text-align: center;
+            width: 20%;
+
+        }
+
+        .dias {
+
+            display: flex;
+        }
+
+        .comp_prof {
+            background-color: lightblue;
+            border-top: 1px solid black;
+            border-left: 0;
+            border-right: 1px solid black;
+            border-bottom: 0;
+        }
+
+        .grupos {
+            display: flex;
+            border: 0px;
+        }
+
+        .grupoa {
+            border: 1px solid black;
+            border-right: 0px;
+            width: 50%;
+
+        }
+
+        .grupob {
+            border: 1px solid black;
+            border-right: 0px;
+            width: 50%;
+
+        }
+
+        .vazio {
+            background-color: lightgray;
+            border: 0px solid lightgray;
+            color: lightgray;
+
+        }
+
+        .tempo {
+            background-color: lightgray;
+            padding-left: 4px;
+            padding-right: 4px;
+            text-align: center;
+
+        }
+
+        .horario {
+            text-align: center;
+            background-color: lightgray;
+            padding-left: 10px;
+            padding-right: 10px;
+
+
+        }
+
+        .sub {
+            background-color: lightblue;
+        }
+
+
+        .conteudo2 {
+            margin-top: 0;
+            margin-bottom: 0;
+            color: white;
+            border-left: 1px solid black
+        }
+
+        .container3 {
+            display: flex;
+            border: 1px solid black;
+            border-bottom: 0px;
+        }
+
+        .conteudo3 {
+            margin-top: 0;
+            margin-bottom: 0;
+            border: 1px solid black;
+        }
+
+        .um {
+            text-align: center;
+            justify-content: left;
+            width: 20px;
+            height: 30px;
+            padding: 10px;
+
+        }
+
+        .horario_final {
+            align-items: center;
+            display: block;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+
+        .tempo_final {
+            text-align: left;
+            padding-left: 35px;
+            display: flex;
+            border: 1px solid black;
+        }
+
+        .prof_aulas {
+            border: 1px solid black;
+            height: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="linha1">
+        <h2>Desenvolvimento de sistemas</h2>
+    </div>
+
+    <div class="linha2">
+        <h2>
+            1° Semestre 2025
+        </h2>
+    </div>
+
+    <div class="container">
+
+        <div class="conteudo">
+            <div class="vazio">hehehe</div>
+            <div class="tempo">Tempo</div>
+            <div class="horario">Horário</div>
+        </div>
+
+
+        <div class="dia_semana">
+            <div class="sub">Dia da semana</div>
+
+
+            <div class="dias">
+
+                <div class="segunda">Segunda-feira
+                    <div class="comp_prof">Componente/Professor</div>
+                    <div class="grupos">
+                        <div class="grupoa">Grupo A
+                            <div></div>
+                        </div>
+                        <div class="grupob">Grupo B
+
+                        </div>
+                        
+        
+                    </div>
+                        
+
+                    
+                </div>
+
+
+                <div class="terca">Terça-feira
+                    <div class="comp_prof">Componente/Professor</div>
+                    <div class="grupos">
+                        <div class="grupoa">Grupo A</div>
+                        <div class="grupob">Grupo B</div>
+                    </div>
+                </div>
+
+                <div class="quarta">Quarta-feira
+                    <div class="comp_prof">Componente/Professor</div>
+                    <div class="grupos">
+                        <div class="grupoa">Grupo A</div>
+                        <div class="grupob">Grupo B</div>
+                    </div>
+
+                </div>
+
+                <div class="quinta">Quinta-feira
+                    <div class="comp_prof">Componente/Professor</div>
+                    <div class="grupos">
+                        <div class="grupoa">Grupo A</div>
+                        <div class="grupob">Grupo B</div>
+                    </div>
+                </div>
+
+
+                <div class="sexta">Sexta-feira
+                    <div class="comp_prof">Componente/Professor</div>
+                    <div class="grupos">
+                        <div class="grupoa">Grupo A</div>
+                        <div class="grupob">Grupo B</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    </div>
+    <div class="container2">
+        <div class="conteudo2">
+            _________
+        </div>
+
+    </div>
+
+    <div class="container3">
+        <div class="conteudo3">
+            <div class="um">1</div>
+
+        </div>
+
+        <div class="tempo_final">
+            <div>1
+                <hr>
+                <div>2</div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>

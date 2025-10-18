@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        fieldset {
+            box-shadow: -5px 5px 5px -5px black;
+            background-color: rgb(248, 229, 217);
+            border: 1px solid black;
+            margin-top: 3px;
+        }
+
+        legend{
+            color: white;
+            border: 1px solid black;
+            padding: 2px;
+            background-color: rgb(235, 66, 36);
+            
+        }
+
+        main {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        div {
+           padding-bottom: 15px; 
+        }
+        
+        h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Escola Magnus</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div>
+                    <label for="nome_aluno">Nome: </label>
+                    <input type="text" name="nome_aluno" id="nome_aluno" maxlength="30">
+                  </div>
+
+                <div>
+                  <label for="data_nasc">Data de nascimento: </label>
+                  <input type="date" name="data_nasc" id="nome_aluno">
+                </div>
+                
+                <div>
+                    <label for="responsavel">Responsável financeiro: </label>
+                    <input type="text" name="responsavel" id="responsavel">
+                </div>
+
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="text" name="email" id="email">
+
+                </div>
+
+                <div>
+                    <label for="cpf">CPF: </label>
+                    <input type="text" name="cpf" id="cpf" maxlength="11">
+                </div>
+
+                <div>
+                    <label for="telefone">Celular: </label>
+                    <input type="text" placeholder="99 99999999" name="telefone" id="telefone" pattern="[0-9]{3}">
+                    <button type="submit">Validar</button>
+                </div>
+
+            </fieldset>
+            
+            <fieldset>
+                <legend>Escolaridade</legend>
+
+                <div>
+                    <label for="serie">Série do aluno: </label>
+                    <select name="serie">
+                        <option value="1°">1°</option>
+                        <option value="2°">2°</option>
+                        <option value="3°">3°</option>
+                        <option value="4°">4°</option>
+                        <option value="5°">5°</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="turno">Turno: </label>
+                    <label for=""><input type="radio" name="iradio" value="1">Manhã</label>
+                    <label for=""><input type="radio" name="iradio" value="2">Tarde</label>
+                </div>
+
+                <div>
+
+                    <p>Atividades extracurriculares:</p>
+                    <label for=""><input type="checkbox" name="ichek" value="1">Musicalização</label>
+                    <label for=""><input type="checkbox" name="ichek" value="2">Judô</label>
+                    <label for=""><input type="checkbox" name="ichek" value="3">Pintura</label>
+                    <label for=""><input type="checkbox" name="ichek" value="4">Futebol</label>
+                    <label for=""><input type="checkbox" name="ichek" value="5">Ballet</label>
+                    <label for=""><input type="checkbox" name="ichek" value="6">Vôlei</label>
+                    <input type="checkbox">
+                </div>
+
+            </fieldset>
+
+        </form>
+    </main>
+
+</body>
+</html>
